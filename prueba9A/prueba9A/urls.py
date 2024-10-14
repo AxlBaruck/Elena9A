@@ -20,4 +20,5 @@ from inicio import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.principal, name="Principal"),
+    path('ejercicio/' ,views.ejercicio, name="Ejercicio"),
 ]
